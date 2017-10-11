@@ -3,13 +3,105 @@ body{
 }
 
 .hero-image{
-  height: 500px;
-  background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/Hi-Tech-Wallpaper-12.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background:  -webkit-linear-gradient(#2B4F81	, #B0C4DE);
+}
+
+.portrait-spacer{
+  height: 100px;
+}
+
+.position-up{
+  position: relative;
+  bottom: 80px;
+}
+.portrait{
+  height: 200px;
+  width: 180px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.name{
+}
+
+.name-text{
+}
+
+.name-text-holder{
+}
+.name-quote{
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .no-padding{
   padding: 0;
+}
+
+
+.no-margin{
+  margin: 0;
+}
+
+.abs-position{
+  position: absolute;
+}
+
+.tops{
+  z-index: 1;
+}
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.home:hover{
+  font-style: oblique;
+}
+
+.education{
+  height: 180px;
+  background-image: url('https://i.pinimg.com/736x/f5/34/4d/f5344da96df9e13e7ed26ddcec02d882--graduation-cap-clipart-graduation-caps.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-bottom: 30px;
+}
+
+.project{
+  height: 180px;
+  background: red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-bottom: 30px;
+}
+
+.experience{
+  height: 180px;
+  background: green;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-bottom: 30px;
+}
+
+.clear-right{
+  clear: right;
+}
+
+.clear-left{
+  clear: left;
 }
